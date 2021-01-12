@@ -1,0 +1,19 @@
+{
+    "name": "komplettnettbutikk/hello_composer",
+    "description": "testing composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mads Oliver Jenssen",
+            "email": "mads@komplettnettbutikk.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Komplettnettbutikk\\HelloComposer\\": "src/"
+        }
+    }
+}
